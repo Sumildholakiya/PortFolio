@@ -40,6 +40,14 @@ const sliderVariants = {
 };
 
 const Hero = () => {
+
+    const scrollToContact = () => {
+        const contactSection = document.getElementById("Contact");
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
         <div className="hero">
             <div className="wrapper">
@@ -47,8 +55,8 @@ const Hero = () => {
                     <motion.h2 variants={textVariants}>SUMIL DHOLAKIYA</motion.h2>
                     <motion.h1 variants={textVariants}>Web Developer</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
-                        <motion.button variants={textVariants}>See The Latest Works</motion.button>
-                        <motion.button variants={textVariants}>Contact Me</motion.button>
+                        <motion.button variants={textVariants}> <a href="https://drive.google.com/uc?export=download&id=19mOVzmr7XmVsdfcvENFcTeLz-6ZPJ_bG">Download Resume</a> </motion.button>
+                        <motion.button variants={textVariants} onClick={scrollToContact} > Contact Me</motion.button>
                     </motion.div>
                     <motion.img variants={textVariants} animate="scrollButton" src="/scroll.png" alt="scroll" />
                 </motion.div>
