@@ -25,6 +25,14 @@ section{
     scroll-snap-align: center;
 }
 
+@media (max-width: 478px){
+    section{
+        height: 100vh;
+        scroll-snap-align: unset;
+    }
+    
+}
+
 // ------------RESPONSIVE MOBILE ------------
 
 @mixin mobile{

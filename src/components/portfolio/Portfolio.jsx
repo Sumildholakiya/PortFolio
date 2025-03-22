@@ -12,17 +12,17 @@ const items = [
     },
     {
         id: 2,
+        title: "BroCode Agency",
+        img: "/agency.png",
+        desc: "BroCode Agency is a responsive website built using HTML, CSS, and JavaScript, offering a modern and user-friendly interface for various services and products.",
+        link: "https://sd-agency.netlify.app/"
+    },
+    {
+        id: 3,
         title: "Organic Farm Food",
         img: "/organicfarm.png",
         desc: "Organic Farm Food is a website for fresh farm products with a clean UI and smooth navigation, built using HTML, CSS, JavaScript, and Bootstrap.",
         link: "https://sd-organicfarm.netlify.app/"
-    },
-    {
-        id: 3,
-        title: "Calculator",
-        img: "/calculator.png",
-        desc: "Calculator is a simple web application built using HTML, CSS, and JavaScript, offering basic arithmetic operations with a sleek and modern design.",
-        link: "https://sd-calculate.netlify.app/"
     },
     {
         id: 4,
